@@ -10,7 +10,7 @@ Este proyecto contiene pruebas automatizadas de un flujo de compra en la página
 - Visualizar el carrito
 - Completar el formulario de compra
 - Finalizar la compra
-- 
+
 
 ## Criterios
 
@@ -24,7 +24,7 @@ Antes de ejecutar las pruebas deben de tener los siguiente programas instalados:
 - **Java 11 o superior**: [Descargar aquí](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
 - **Maven**: [Descargar aquí](https://maven.apache.org/download.cgi)
 
-## Pasos para ejecutar manualmente
+## Pasos para ejecutar
 
 1. **Instalar dependencias**:
 
@@ -50,8 +50,7 @@ Antes de ejecutar las pruebas deben de tener los siguiente programas instalados:
    Una vez que las pruebas hayan finalizado, el archivo HTML del reporte generado se encontrará en la siguiente ruta:
 
    `target\site\serenity\index.html`
-   
-   
+
    o puedes abrirlo directamente desde la terminal con el siguiente comando:
    
    `start target/site/serenity/index.html`

@@ -1,0 +1,25 @@
+Conclusiones
+
+Las pruebas automáticas realizadas para el flujo de compra de dos productos fueron 100% exitosas.
+
+    Pasos de la prueba:
+
+    • Agregar dos productos al carrito: Se valido mediante un conjunto de productos en el front.
+    • Visualizar el carrito: Se verificó que los productos agregados se mostraran correctamente en el carrito.
+    • Completar el formulario de compra: Se completó el formulario con la información requerida.
+    • Finalizar la compra: Se realizó la compra y se verificó que el proceso llegara a su fin sin errores
+
+Observaciones
+
+• Aunque el flujo de compra funciona correctamente cuando se agregan productos al carrito, se observó que es posible continuar el proceso de compra sin agregar productos al carrito. Esto podría generar errores y afectar negativamente la experiencia del usuario.
+• Actualmente, no se realizan validaciones de datos en el formulario de compra, lo que podría generar vulnerabilidades de seguridad y errores debido a entradas incorrectas o mal formateadas.
+• En el mensaje de confirmación de compra, no se muestra la fecha actual. En su lugar, aparece la fecha del 01 de enero de 2026, lo que puede generar confusión en el usuario.
+
+Recomendaciones
+
+- Implementar validaciones en el formulario.
+- Mejorar el flujo de compra, añadiendo la validación de flujo sin productos añadidos.
+- Corregir el mensaje de finalización de compra para que la fecha mostrada sea la actual.
+- Guiarse del archivo README.md para la ejecución de la automatización.
+
+
